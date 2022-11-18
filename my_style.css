@@ -1,0 +1,106 @@
+
+*{
+    box-sizing: border-box;
+}
+.mou a{
+    text-decoration: none;
+}
+.mou a:hover{
+    background-color: rgb(255, 157, 0);
+    color: rgb(241, 245, 242);
+    width: 100%;
+}
+    
+
+.mou{
+    background-color: rgb(170, 170, 193);
+    color: rgb(255, 255, 255);
+}
+
+.left{
+    background-color: rgb(170, 170, 193);
+}
+.right{
+    background-color: rgb(170, 170, 193);
+}
+ul{
+    padding: 0;
+    margin: 0;
+}
+ul li{
+    text-decoration: none;
+}
+ul li a{
+    display: inline;
+    text-decoration: none;
+}
+.tb2{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+.liv1{
+    background-color: blue;
+    margin-top: 4px;
+}
+.liv1 a{
+    color: white;
+}
+.liv1 a:hover{
+    
+    color: orangered;
+}
+
+.tb2{
+     background-color: rgb(73, 73, 216);
+}
+
+/*galary design part*/
+#c1, #c2, #c3{
+    width: 33%;
+    display: inline;
+}
+
+
+
+
+.raz{
+    width: 50%;
+     height:200px;
+     background-color:greenyellow;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border-radius: 50%;
+     position: relative;
+
+     animation-name: welcome;
+     animation-iteration-count: infinite;
+     animation-duration: 4s;
+
+    
+     
+     
+}
+
+
+
+
+@keyframes welcome {
+    0% {background-color:red; left:0px; top:0px;}
+  10%  {background-color:yellow; left:150px; top:0px;}
+  20%  {background-color:blue; left:150px; top:150px;}
+  30%  {background-color:green; left:0px; top:150px;}
+  40%  {background-color:red; left:0px; top:0px;}
+
+  50%  {background-color:red; right:0px; top:0px;}
+  60%  {background-color:yellow; right:150px; top:0px;}
+  70%  {background-color:blue; right:150px; top:150px;}
+  80%  {background-color:green; right:0px; top:150px;}
+  100% {background-color:red; right:0px; top:0px;}
+}
+
+
+ 
